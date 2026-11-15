@@ -6,7 +6,7 @@ on:
       # ---------- 内核源码 ----------
       kernel_repo:
         description: "内核源码仓库链接（内核源码仓库或设备源码仓库均可）"
-        default: ""
+        default: "https://github.com/duilehaojiu/kernel_lenovo_tb128fu"
         required: false
       kernel_branch:
         description: "内核源码分支 / tag"
@@ -52,7 +52,7 @@ on:
         required: false
       config_url:
         description: "原系统配置直链（.config 或 config.gz）；留空则使用源码 defconfig"
-        default: ""
+        default: "https://github.com/duilehaojiu/TB128FU-KernelSU/releases/download/conifg/config.gz"
         required: false
       enable_ksu:
         description: "是否集成 ReSukiSU（关闭则构建纯内核，用于对照）"
