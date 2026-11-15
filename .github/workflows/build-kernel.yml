@@ -31,7 +31,7 @@ on:
         required: false
       toolchain_ref:
         description: "clang 版本目录（默认 r370808，兼容 GNU binutils 2.27）"
-        default: "r370808"
+        default: "r416183b"
         required: false
       gcc_repo:
         description: "aarch64 gcc 4.9 官方仓库"
